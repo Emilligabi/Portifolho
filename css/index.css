@@ -113,3 +113,24 @@
         left: 100vw;
     }
 }
+
+
+
+
+.card-skill {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: opacity 350ms, transform 500ms;
+}
+
+.card-skill.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+.text-wrapper {
+    word-break: break-all;
+    padding: 0 2rem;
+}

@@ -1,7 +1,7 @@
 function useScroll(moreThen, fn) {
   function watch(event) {
     if (window.scrollY >= moreThen) {
-      fin();
+      fn();
     }
   }
 
